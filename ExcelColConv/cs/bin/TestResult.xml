@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="/Users/ItoMacBook/develop/sandbox/ExcelColConv/cs/bin/ExcelColConv.dll" total="2" failures="0" not-run="0" date="2011/11/02" time="21:59">
+  <test-suite name="/Users/ItoMacBook/develop/sandbox/ExcelColConv/cs/bin/ExcelColConv.dll" success="True" time="0.031996" asserts="0">
+    <results>
+      <test-suite name="ExcelUtilTest" success="True" time="0.022435" asserts="0">
+        <results>
+          <test-case name="ExcelUtilTest.TestToColNumber" executed="True" success="True" time="0.006" asserts="17" />
+          <test-case name="ExcelUtilTest.TestToColString" executed="True" success="True" time="0.002" asserts="17" />
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
