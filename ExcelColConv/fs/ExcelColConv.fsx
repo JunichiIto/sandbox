@@ -1,10 +1,10 @@
 namespace ExcelColConv
 module ExcelUtil = 
-  let AzLength = (int 'Z') - (int 'A') + 1 // 26
-  let OffsetNum = (int 'A') - 1 // 64
+  let AzLength = int 'Z' - int 'A' + 1 // 26
+  let OffsetNum = int 'A' - 1 // 64
   
   let toColNumber (colStr : string) =
-    let calcDecimal c times = (pown AzLength times) * ((int c) - OffsetNum) 
+    let calcDecimal c times = (pown AzLength times) * (int c - OffsetNum) 
     let rec convertStr ret = function
       | [] -> ret
       | c::chars -> ((calcDecimal c chars.Length) + ret, chars)
